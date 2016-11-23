@@ -14,16 +14,16 @@ import android.widget.TextView;
 
 public class RegisterActivity extends Activity {
 
-    TextView textView_username;
-    TextView textView_password;
-    TextView textView_firstname;
-    TextView textView_lastname;
-    EditText edt_username;
-    EditText edt_password;
-    EditText edt_firstname;
-    EditText edt_lastname;
-    Button btn3;
-    Button btn4;
+    private TextView textView_username;
+    private TextView textView_password;
+    private TextView textView_firstname;
+    private TextView textView_lastname;
+    private EditText edt_username;
+    private EditText edt_password;
+    private EditText edt_firstname;
+    private EditText edt_lastname;
+    private Button btn3;
+    private Button btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +46,9 @@ public class RegisterActivity extends Activity {
     }
 
     private void buttoncancel() {
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View v) {
+
             }
         });
     }
@@ -58,7 +57,7 @@ public class RegisterActivity extends Activity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                finish();
             }
         });
     }
