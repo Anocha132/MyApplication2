@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#bbdefb">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edt_heading"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="Heading"
+            android:background="?android:attr/colorBackground"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:text="Post"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_post"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/edt_content"
+        android:layout_margin="20dp"
+        android:hint="Content"
+        android:background="?android:attr/colorBackground"
+        android:selectAllOnFocus="false"
+        android:gravity="top" />
 </LinearLayout>

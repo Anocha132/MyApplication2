@@ -39,7 +39,8 @@
                 android:ems="10"
                 android:id="@+id/editText4"
                 android:layout_weight="1"
-                android:hint="Search" />
+                android:hint="Search"
+                android:background="?android:attr/colorBackground" />
 
             <ImageButton
                 android:src="@android:drawable/ic_menu_search"
@@ -58,9 +59,9 @@
             android:cropToPadding="false"
             android:baselineAlignBottom="false"
             android:scaleType="centerCrop"
-            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            android:layout_width="80dp" />
 
     </LinearLayout>
 
@@ -71,13 +72,125 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
 
-            <TextView
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView6" />
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:src="@drawable/profile"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:text="test1"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:src="@drawable/profile"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:text="test2"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="5dp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:src="@drawable/profile"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:text="test3"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="5dp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:src="@drawable/profile"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:text="test4"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

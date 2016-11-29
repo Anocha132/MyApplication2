@@ -33,7 +33,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/edt_username"
-            android:background="#e0e0e0"
+            android:background="?android:attr/colorBackground"
             android:padding="10dp"
             android:layout_marginLeft="10dp" />
 
@@ -58,7 +58,7 @@
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/edt_password"
-            android:background="#e0e0e0"
+            android:background="?android:attr/colorBackground"
             android:padding="10dp"
             android:layout_marginLeft="10dp" />
 
@@ -83,7 +83,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/edt_firstname"
-            android:background="#e0e0e0"
+            android:background="?android:attr/colorBackground"
             android:padding="10dp"
             android:layout_marginLeft="10dp" />
 
@@ -108,7 +108,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/edt_lastname"
-            android:background="#e0e0e0"
+            android:background="?android:attr/colorBackground"
             android:padding="10dp"
             android:layout_marginLeft="10dp" />
 
