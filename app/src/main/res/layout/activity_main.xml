@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.oom.myapplication.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#bbdefb">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -80,116 +81,28 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="5dp"
+                android:layout_margin="5dp"
                 android:background="@android:color/holo_blue_light"
-                android:layout_margin="5dp">
+                android:gravity="center">
 
                 <ImageView
                     android:src="@drawable/profile"
-                    android:id="@+id/imageView"
-                    android:layout_weight="1"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
-                    android:padding="5dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView6"
-                    android:text="test1"
-                    android:layout_weight="1"
-                    android:textSize="24sp"
-                    android:padding="5dp"
-                    android:layout_margin="5dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="5dp"
-                android:background="@android:color/holo_blue_light"
-                android:layout_margin="5dp">
-
-                <ImageView
-                    android:src="@drawable/profile"
                     android:id="@+id/imageView"
                     android:layout_weight="1"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:background="@android:color/holo_blue_light"
-                    android:padding="5dp" />
+                    android:layout_margin="5dp" />
 
                 <TextView
+                    android:text="Heading"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView6"
-                    android:text="test2"
+                    android:id="@+id/textView_header"
                     android:layout_weight="1"
-                    android:textSize="24sp"
-                    android:background="@android:color/holo_blue_light"
                     android:padding="5dp"
-                    android:layout_margin="5dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="5dp"
-                android:background="@android:color/holo_blue_light"
-                android:layout_margin="5dp">
-
-                <ImageView
-                    android:src="@drawable/profile"
-                    android:id="@+id/imageView"
-                    android:layout_weight="1"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:background="@android:color/holo_blue_light"
-                    android:padding="5dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView6"
-                    android:text="test3"
-                    android:layout_weight="1"
                     android:textSize="24sp"
-                    android:background="@android:color/holo_blue_light"
-                    android:padding="5dp"
-                    android:layout_margin="5dp" />
-            </LinearLayout>
+                    android:clickable="true" />
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="5dp"
-                android:background="@android:color/holo_blue_light"
-                android:layout_margin="5dp">
-
-                <ImageView
-                    android:src="@drawable/profile"
-                    android:id="@+id/imageView"
-                    android:layout_weight="1"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:padding="5dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView6"
-                    android:text="test4"
-                    android:layout_weight="1"
-                    android:textSize="24sp"
-                    android:padding="5dp"
-                    android:layout_margin="5dp" />
             </LinearLayout>
 
         </LinearLayout>

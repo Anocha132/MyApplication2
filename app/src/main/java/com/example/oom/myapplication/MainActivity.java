@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -12,6 +13,7 @@ public class MainActivity extends Activity {
 
     ImageButton imBtn1;
     ImageButton imBtn2;
+    TextView textView_header;
     ArrayList arr_list;
 
     @Override
@@ -22,8 +24,21 @@ public class MainActivity extends Activity {
 
         imBtn1 = (ImageButton) findViewById(R.id.imBtn1);
         imBtn2 = (ImageButton) findViewById(R.id.imBtn2);
+        textView_header = (TextView) findViewById(R.id.textView_header);
+
         toLoginActivity();
         toCreateToppic();
+        toRead();
+    }
+
+    private void toRead() {
+        textView_header.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ReadActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void toCreateToppic() {

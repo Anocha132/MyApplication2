@@ -18,10 +18,11 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:gravity="center">
 
         <TextView
-            android:text="Username   :"
+            android:text="username  :"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView_username"
@@ -43,7 +44,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:gravity="center">
 
         <TextView
             android:text="Password   :"
@@ -68,7 +70,34 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="E-mail          :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_email"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edt_email"
+            android:background="?android:attr/colorBackground"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center">
 
         <TextView
             android:text="First Name :"
@@ -93,7 +122,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:gravity="center">
 
         <TextView
             android:text="Last Name :"
